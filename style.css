@@ -1,0 +1,30 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fff9f4;
+  color: #333;
+}
+header {
+  background: #c40000;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+main {
+  padding: 2rem;
+}
+h2 {
+  color: #c40000;
+}
+.price {
+  font-weight: bold;
+  color: green;
+}
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #eee;
+  margin-top: 2rem;
+}

@@ -1,52 +1,43 @@
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #fff9f5;
-    color: #222;
+    font-family: 'Segoe UI', sans-serif;
+    background: #fff8f4;
     margin: 0;
     padding: 0;
-}
-
-header {
-    background-color: #cc0000;
-    color: white;
+    color: #333;
     text-align: center;
-    padding: 20px;
 }
-
+header {
+    background: #c10000;
+    color: white;
+    padding: 2rem 1rem;
+}
 .logo {
-    width: 120px;
+    max-width: 120px;
     margin-bottom: 10px;
 }
-
 main {
-    padding: 20px;
+    padding: 2rem;
 }
-
 .combo, .coming-soon {
-    margin-bottom: 30px;
-    padding: 15px;
-    background-color: #fff2f0;
-    border-left: 6px solid #cc0000;
+    background: #fff;
+    margin: 1.5rem auto;
+    padding: 1.5rem;
+    border-radius: 10px;
+    max-width: 600px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
 }
-
 .price {
     color: green;
     font-weight: bold;
+    font-size: 1.3rem;
 }
-
 footer {
-    background-color: #eee;
-    text-align: center;
-    padding: 15px;
-    font-size: 0.9em;
+    background: #eee;
+    padding: 1rem;
+    font-size: 0.9rem;
 }
-
-a {
-    color: #cc0000;
+.socials a {
     text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
+    color: #c10000;
 }

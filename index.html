@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="el">
 <head>
@@ -8,18 +9,17 @@
         body {
             font-family: Arial, sans-serif;
             margin: 0;
-            background: url('https://images.unsplash.com/photo-1607082349566-187342175e2c?auto=format&fit=crop&w=1600&q=80') no-repeat center center fixed;
-            background-size: cover;
+            background: #f8f8f8;
             color: #333;
         }
         header {
-            background-color: rgba(255, 255, 255, 0.95);
-            color: #cc0000;
+            background-color: #cc0000;
+            color: white;
             text-align: center;
             padding: 30px 20px;
         }
         header img {
-            max-height: 120px;
+            max-height: 100px;
             margin-bottom: 10px;
         }
         .section {
@@ -28,15 +28,16 @@
             padding: 20px;
             max-width: 800px;
             border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
         }
         .section h2 {
             color: #cc0000;
         }
         footer {
-            background-color: rgba(255, 255, 255, 0.9);
+            background-color: #eee;
             text-align: center;
             padding: 20px;
+            margin-top: 40px;
         }
         .social-icons a {
             margin: 0 10px;
@@ -44,22 +45,64 @@
             color: #cc0000;
             font-weight: bold;
         }
-        .site-link {
-            margin-top: 10px;
-            display: block;
-            font-weight: bold;
-            color: #cc0000;
-            text-decoration: none;
+        .combo {
+            background-color: #fafafa;
+            border: 1px solid #ddd;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 15px;
         }
     </style>
 </head>
 <body>
     <header>
-        <img src="https://raw.githubusercontent.com/prosfora365/prosfora365/main/logo.png" alt="Prosfora365 Logo">
+        <img src="logo.png" alt="Prosfora365.gr">
         <h1>Prosfora365.gr</h1>
-        <p>Όχι απλώς προϊόντα - εμπειρίες σε τιμή ευκαιρίας. Από το σπίτι και τον μάστορα, μέχρι το lifestyle σου.</p>
+        <p>Όχι απλώς προϊόντα – εμπειρίες σε τιμή ευκαιρίας. Από το σπίτι και τον μάστορα, μέχρι το lifestyle σου.</p>
     </header>
 
-    <!-- το υπόλοιπο site παραμένει το ίδιο -->
+    <div class="section">
+        <h2>🔥 Demo Combo: "Καθάρισέ το"</h2>
+        <div class="combo">
+            <ul>
+                <li>Σίδερο ατμού</li>
+                <li>Spray καθαρισμού</li>
+                <li>Πανί μικροϊνών</li>
+            </ul>
+            <strong>Μόνο 19.90€</strong>
+        </div>
+
+        <h2>🛠️ Combo: "Για τον Μάστορα"</h2>
+        <div class="combo">
+            <ul>
+                <li>Δραπανοκατσάβιδο Bosch</li>
+                <li>Σετ κατσαβίδια</li>
+                <li>Μετροταινία</li>
+            </ul>
+            <strong>Μόνο 29.90€</strong>
+        </div>
+
+        <h2>💨 Combo: "Vape & Chill"</h2>
+        <div class="combo">
+            <ul>
+                <li>3x Vape μιας χρήσης</li>
+                <li>Mini καθαριστικό θήκης</li>
+                <li>Μαντηλάκια νικοτίνης</li>
+            </ul>
+            <strong>Μόνο 14.90€</strong>
+        </div>
+    </div>
+
+    <footer>
+        <p>📩 Email: <a href="mailto:prosfora365@gmail.com">prosfora365@gmail.com</a> |
+           📞 WhatsApp: <a href="https://wa.me/306942806507">+30 6942806507</a> |
+           📱 Viber: <a href="viber://chat?number=306942806507">+30 6942806507</a></p>
+        <div class="social-icons">
+            <a href="https://www.instagram.com/prosfores365/">Instagram</a> |
+            <a href="https://www.facebook.com/profile.php?id=61558043710963">Facebook</a> |
+            <a href="https://prosfora365.github.io/prosfora365/">Website</a>
+        </div>
+        <p>© 2025 Prosfora365.gr</p>
+    </footer>
 </body>
 </html>

@@ -1,30 +1,52 @@
 
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background: #fff9f4;
-  color: #333;
+    font-family: Arial, sans-serif;
+    background-color: #fff9f5;
+    color: #222;
+    margin: 0;
+    padding: 0;
 }
+
 header {
-  background: #c40000;
-  color: white;
-  padding: 1rem;
-  text-align: center;
+    background-color: #cc0000;
+    color: white;
+    text-align: center;
+    padding: 20px;
 }
+
+.logo {
+    width: 120px;
+    margin-bottom: 10px;
+}
+
 main {
-  padding: 2rem;
+    padding: 20px;
 }
-h2 {
-  color: #c40000;
+
+.combo, .coming-soon {
+    margin-bottom: 30px;
+    padding: 15px;
+    background-color: #fff2f0;
+    border-left: 6px solid #cc0000;
 }
+
 .price {
-  font-weight: bold;
-  color: green;
+    color: green;
+    font-weight: bold;
 }
+
 footer {
-  text-align: center;
-  padding: 1rem;
-  background: #eee;
-  margin-top: 2rem;
+    background-color: #eee;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9em;
+}
+
+a {
+    color: #cc0000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
